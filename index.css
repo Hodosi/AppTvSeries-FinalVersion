@@ -1,0 +1,186 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Start*/
+body {
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.container,
+.articole,
+footer {
+	width: 1000px;
+}
+
+footer,
+header,
+.film
+{
+  background-color: #3b3d3f;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+header { 
+  height: 400px;
+  width: 100%;
+}
+
+.header-text {
+	padding: 10px 0px 10px 40px;
+	font-size: 25px;
+}
+
+header img {
+	float: right;
+    padding: 46.5px 20px;
+
+}
+
+header h1 {
+ 	padding: 60px 0px 10px 40px;
+	font-size: 25px;
+ }
+
+header p {
+	padding: 10px 0px 10px 40px;
+	font-size: 15px;
+	color: black;
+}
+
+header a {
+ 	width: 120px;
+    height: 60px;
+    font-size: 15px;
+    transition: 2s;
+}
+
+.buton1 {
+	margin: 10px 60px;
+}
+
+.buton1:hover {
+    cursor: pointer;
+    background-color: green;
+    border-radius: 45px;
+}
+
+section {
+	background-color: #0d0e0f;
+}
+
+section h1 {
+	text-align: center;
+	font-size: 40px;
+	padding: 10px 0px;
+}
+
+section p {
+	padding: 5px;
+	text-indent: 20px;
+}
+
+.articole {
+	display: flex;
+	flex-direction: row; 
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.film {
+    width: 300px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.film:nth-child(1),
+.film:nth-child(2),
+.film:nth-child(3) {
+    margin-top: 25px;
+}
+
+.articole div h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 20px 0 10px;
+	text-indent:20px;
+}
+
+.articole div p {
+	text-indent: 20px;
+	padding: 10px;
+	font-size: 15px;
+	line-height: 1.4;
+}
+
+.articole div img {
+	width: 100%;
+	height: 200px;
+	transition: all 2s;
+}
+
+.overplay:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+
+}   
+
+footer {
+	height: 100px;
+}
+
+footer a {
+	font-size: 20px; 
+	color: #04060a;
+}
+
+.butoane {
+	text-align: center;
+	padding: 15px; 
+}
